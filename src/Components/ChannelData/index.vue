@@ -32,6 +32,14 @@ export default{
     flex: 1;
 }
 
+.messages{
+    display: flex;
+    flex-direction: column;
+    height: calc(100%vh - 46px- 68px);
+    max-height: calc(100%vh - 46px- 68px);
+    overflow-y: scroll;
+}
+
 .input-text{
     width: 100%;
     padding: 0 16px;
